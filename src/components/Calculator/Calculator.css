@@ -26,6 +26,7 @@
   color: #0a0707;
   box-shadow: #0a0707 5px 5px 0px 0px;
   text-align: right;
+  width: 100%;
 }
 
 .calculator__display.smaller {

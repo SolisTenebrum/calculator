@@ -90,7 +90,7 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <div className="calculator__container">
-        <input className="calculator__display" title="display" type="text" value={display} disabled />
+        <div className="calculator__display">{display}</div>
         <div className="calculator__buttons">
           {buttons.map((button) => {
             return (
